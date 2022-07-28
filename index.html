@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillCoup</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <nav class="navbar">
+        <div class="img">
+            <img src="Group 44.png" alt="Skillcouplogo">
+        </div>
+        <div class="butt">
+            <button href="#">Get started</button>
+        </div>
+    </nav>
+    <!-- page -->
+    <div class="formsub">
+        <div class="text">
+            <h2>Personal Details</h2>
+            <p>Give a Short Personal Description About Yourself. This information will appear on your public profile so
+                that potential clients can get to know your better</p>
+            <h2 class="line"></h2>
+        </div>
+        <div class="formmmm">
+            <form action="welcome.php">
+                <!-- Name -->
+                <label for="fname">Name*</label>
+                <input class="input1" type="text" id="fname" name="fname" placeholder="First Name" required>
+                <input type="text" id="lname" name="lname" placeholder="Last Name" required><br>
+                <!-- Profile Photo -->
+                <label for="profilephoto" id="profilep">Profile Photo*</label>
+                <button class="input1" style="height: 100px;
+                    width: 100px;
+                    border-radius: 97px;
+                    border: #FFFFFF;
+                    background-color: grey;" onclick="document.getElementById('img').click()"></button>
+                <input type="file" id="img" style="display:none;"><br>
+                <!-- Description -->
+                <label for="desc">Description*</label>
+                <input class="input1" type="text" name="desc" id="desc" maxlength="150"
+                    placeholder="Describe yourself and your skills in the best possible way you can (atleast 150 characters)."
+                    required><br>
+                <!-- language -->
+                <label for="lang">Language*</label>
+                <input class="input1" type="text" name="lang" id="lang" required>
+                <span class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Proficiency
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#"><input type="radio" name="radiobutton" id="r1">Good</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#"><input type="radio" name="radiobutton" id="r2">Better</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#"><input type="radio" name="radiobutton" id="r3">Best</a>
+                        </li>
+                    </ul>
+                </span>
+                <button class="buttonp">+</button><br>
+                <!-- next -->
+                <div class="d-grid gap-1 col-2 mx-auto">
+                    <!-- <button class="btn btn-primary" type="button" value="submit">Submit</button> -->
+                    <input type="submit" value="Submit" id="buttonsu" placeholder="Submit">
+                    <input type="reset" value="Reset" class="button" placeholder="Reset">
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>@2021 SkillCoup. All rights reserved</p>
+    </footer>
+</body>
+
+</html>

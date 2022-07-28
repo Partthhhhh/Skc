@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    color: aliceblue;
+    background-color: #072756;
+}
+
+.navbar {
+    position: sticky;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #18A0FB;
+    border-radius: 5px;
+}
+
+.formsub {
+    padding: 40px 40px;
+    margin-left: 143px;
+    margin-right: 143px;
+    background-color: aliceblue;
+    color: black;
+    /* height: 1003px; */
+    border-radius: 10px;
+}
+
+.text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.line {
+    margin-top: 10px;
+    border: 2px solid #18A0FB;
+}
+
+.formmmm {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: Roboto;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #18A0FB;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+#fname,
+#lname,
+#lang {
+    box-sizing: border-box;
+    height: 38px;
+}
+
+/* #profilep {
+    box-sizing: border-box;
+    margin-top: 50px;
+} */
+
+
+#desc {
+    box-sizing: border-box;
+    height: 104px;
+    inline-size: 570px;
+    word-wrap: break-word;
+    /* overflow: auto; */
+    /* text-align: justify; */
+    /* inline-size: 200px; */
+    /* -ms-text-size-adjust: 12fr; */
+}
+
+#dropdownMenuButton1 {
+    background: #FFFFFF;
+    border: 1px solid #18A0FB;
+    border-radius: 5px;
+    color: grey;
+}
+
+.buttonp {
+    height: 50px;
+    color: #18A0FB;
+    background-color: aliceblue;
+    border: 1px solid #18A0FB;
+}
+
+label {
+    width: 150px;
+}
+
+.input1 {
+    margin-left: 50px;
+}
+
+footer {
+    margin-top: 45px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: x-small;
+}
+
+input::placeholder {
+    white-space: pre-line;
+    float: left;
+}
+
+#buttonsu {
+    background-color: #18A0FB;
+    color: aliceblue;
+}
